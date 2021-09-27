@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Home</title>
+
+    <meta property="fb:app_id" content="288181594975039" />
+
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '483071375854327');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=483071375854327&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '288181594975039',
+                xfbml: true,
+                version: 'v2.10'
+            });
+            FB.AppEvents.logPageView();
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>
+        fbq('track', 'ViewContent');
+    </script>
+
+    <section class="space-before space-after">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10" style="text-align: center">
+                <h1>Comentários:</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="fb-comments" data-href="http://nataliepinheiro.com.br/vjt/online/c/vjt-t2-comentarios.html" 
+                    data-mobile="true" data-order-by="reverse_time" data-numposts="10"></div>
+                <!-- <div class="fb-comments" data-href="http://nataliepinheiro.com.br/vjt/online/c/vjt-t2-comentarios.html" 
+                    data-numposts="10" data-width=""></div> -->
+            </div>
+        </div>
+    </section>
+
+    <p class="small text-muted text-center" style="font-family: 'Roboto'; font-size: 10pt; background: #141414; margin-bottom: 0px; padding-bottom: 30px;">
+        <br /><br />
+        Copyright &copy; 2020. Todos os direitos reservados.
+        <br />
+    </p>
+</body>
+</html>
